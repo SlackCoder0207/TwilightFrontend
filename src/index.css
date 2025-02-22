@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* 确保页面全高，并移除默认外边距 */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* 设置全局背景图片 */
+body {
+    background-image: url('@/assets/background.jpg');
+    background-size: cover;       /* 背景填充整个页面 */
+    background-position: center;  /* 居中显示 */
+    background-repeat: no-repeat; /* 不重复 */
+}
